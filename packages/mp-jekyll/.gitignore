@@ -1,0 +1,7 @@
+**/*Zone.Identifier
+_site
+.sass-cache
+.jekyll-metadata
+node_modules
+Gemfile.lock
+demo_list.sublime-workspace
