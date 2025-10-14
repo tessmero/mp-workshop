@@ -18,6 +18,6 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('title')?.textContent).toContain('Recursio');
+    expect(compiled.querySelector('title')?.textContent).toContain('Music Player');
   });
 });

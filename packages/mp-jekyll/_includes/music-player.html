@@ -3,7 +3,7 @@
   SONGS = {}
 </script>
 
-<script src="assets/javascript/song-player.js"></script>
+<script src="assets/javascript/lofi-music-manager.js"></script>
 
 {% for file in site.static_files %}
   {% if file.path contains 'assets/javascript/songs' and file.extname == '.js' %}
@@ -71,7 +71,7 @@
     }
   }
 
-  function playClicked(){
+  function playLofiClicked(){
     const selectElement = document.getElementById("select-song");
     const songKey = selectElement.value; 
     const songData = SONGS[songKey]
@@ -133,19 +133,6 @@
     updateVolume() 
   }
 
-  function showMusicPlayer() {
-    musicPlayer.style.display = "flex";
-  }
-
-  function hideMusicPlayer() {
-    musicPlayer.style.display = "none";
-    MusicManager().stopMusic(); // stop lofi
-
-    for( const audio of Object.values(allOggPlayers) ){
-      audio.pause()
-    }
-  }
-
   document.addEventListener('DOMContentLoaded', function() {
     const playButton = document.getElementById('play');
     const playOggButton = document.getElementById('playOgg');
@@ -168,7 +155,7 @@
       selectElem.appendChild(option);
     }
 
-    playButton.addEventListener('click', playClicked);
+    playButton.addEventListener('click', playLofiClicked);
     playOggButton.addEventListener('click', playOggClicked);
 
     stopButton.addEventListener('click', function() {

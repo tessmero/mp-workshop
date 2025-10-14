@@ -1,1 +1,14 @@
-<p>music-player works!</p>
+<div id="music-player">
+  <span id="song-player-label" class="hidden-on-small-screen">Song Player</span>
+  <select #selectSong [(ngModel)]="selectedSongName">
+    <option *ngFor="let songName of allSongNames" [value]="songName">{{ songName }}</option>
+  </select>
+  <button #play (click)="playLofiClicked()">Play A</button>
+  <button #playOff (click)="playOggClicked()">Play B</button>
+  <button #stop (click)="stopClicked()">Stop</button>
+  <input 
+    #musicVolumeSlider 
+    class="slider" type="range" min="0" max="1" step="0.01" 
+    [(ngModel)]="volume" (change)="updateVolume()"
+  >
+</div>
