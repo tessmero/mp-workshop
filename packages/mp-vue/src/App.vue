@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import MusicPlayer from './components/MusicPlayer.vue';
 </script>
 
 <template>
@@ -8,13 +9,15 @@ import TheWelcome from './components/TheWelcome.vue'
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Music Player" />
     </div>
   </header>
 
   <main>
     <TheWelcome />
   </main>
+
+  <MusicPlayer />
 </template>
 
 <style scoped>
