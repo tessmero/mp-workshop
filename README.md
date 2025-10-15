@@ -8,10 +8,10 @@ Features: song select, play, stop (no pause), and volume control
 
 ### Frameworks
 
-- angular
-- react
-- svelte
-- vue
+- [angular](https://angular.dev/)
+- [react](https://react.dev/)
+- [svelte](https://svelte.dev/)
+- [vue](https://vuejs.org/)
 
 For each framework, you will find a self-contained npm package under ```packages```.
 
@@ -25,9 +25,9 @@ Each package contains a copy of all the song data files.
 
 Each song has two versions:
 
-(A) Low-fidelity sequence (like midi but simpler). These are encoded in human-readable javascript [example](https://github.com/tessmero/mp-workshop/blob/main/packages/lofi-songs/avalanche.js)
+(A) Low-fidelity sequence (like midi but simpler). These are encoded in human-readable ```.js``` [example](https://github.com/tessmero/mp-workshop/blob/main/lofi-songs/avalanche.js)
 
-(B) Higher quality ```.ogg``` - standard format supported by web browsers.
+(B) Higher quality ```.ogg``` audio - standard format supported by web browsers.
 
 ### Related Projects
 
