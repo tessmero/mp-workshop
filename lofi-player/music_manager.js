@@ -1,5 +1,7 @@
 /**
  * @file music manager
+ * 
+ * Singleton that manages lofi song playback.
  */
 function MusicManager() {
   if (MusicManager._instance) {

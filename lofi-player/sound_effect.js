@@ -1,5 +1,7 @@
 /**
  * @file SoundEffect
+ * 
+ * One note being played.
  */
 class SoundEffect {
   #duration; // seconds
