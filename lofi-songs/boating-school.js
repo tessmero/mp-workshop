@@ -1,12 +1,12 @@
 /**
  * @file BOATING_SONG
  */
-const _ = 'rest';
-const s = 'sustain';
+_ = 'rest';
+s = 'sustain';
 
-const _DUR = 0.10;
+_DUR = 0.10;
 
-export const BOATING_SCHOOL = {
+SONGS['boating-school'] = {
   titleKey: 'boating-song',
 
   voices: [

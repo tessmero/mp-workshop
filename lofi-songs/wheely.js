@@ -1,12 +1,12 @@
 /**
  * @file POLKA_SONG
  */
-const _ = 'rest';
-const s = 'sustain';
+_ = 'rest';
+s = 'sustain';
 
-const _DUR = 0.16;
+_DUR = 0.16;
 
-export const WHEELY = {
+SONGS['wheely'] = {
 
   voices: [
     {

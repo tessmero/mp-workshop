@@ -1,12 +1,12 @@
 /**
  * @file cube-dance
  */
-const _ = 'rest';
-const s = 'sustain';
+_ = 'rest';
+s = 'sustain';
 
-const _DUR = 0.12;
+_DUR = 0.12;
 
-export const CUBE_DANCE = {
+SONGS['cube-dance'] = {
   color: '#aaffaa',
 
   // like sound effects

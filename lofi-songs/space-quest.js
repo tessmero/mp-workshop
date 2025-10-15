@@ -1,10 +1,10 @@
 /**
  * @file BACH_PRELUDE_SONGE
  */
-const _ = 'rest';
-const s = 'sustain';
+_ = 'rest';
+s = 'sustain';
 
-export const SPACE_QUEST = {
+SONGS['space-quest'] = {
 
   info: '',
 

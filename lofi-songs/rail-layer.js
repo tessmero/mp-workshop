@@ -1,10 +1,10 @@
 /**
  * @file LAYERS_SONG
  */
-const _ = 'rest';
-const s = 'sustain';
+_ = 'rest';
+s = 'sustain';
 
-export const RAIL_LAYER = {
+SONGS['rail-layer'] = {
 
   voices: [
     {

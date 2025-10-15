@@ -1,12 +1,12 @@
 /**
  * @file sketch ball song
  */
-const _ = 'rest';
-const s = 'sustain';
+_ = 'rest';
+s = 'sustain';
 
-const _DUR = 0.2;
+_DUR = 0.2;
 
-export const SKETCH_BALL = {
+SONGS['sketch-ball'] = {
   titleKey: 'sketch-ball-song',
   color: '#ffaaaa',
 

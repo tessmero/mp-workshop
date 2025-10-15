@@ -86,6 +86,16 @@
   <span id="song-player-label" class="hidden-on-small-screen">Song Player</span>
   <select name="select-song" id="select-song">
     <option value="avalanche">Avalanche</option>
+    <option value="chess">Chess</option>
+    <option value="fight-cub">Fight Cub</option>
+    <option value="orbital-launch">Orbital Launch</option>
+    <option value="sketch-ball">Sketch Ball</option>
+    <option value="wheely">Wheely</option>
+    <option value="boating-school">Boating School</option>
+    <option value="cube-dance">Cube Dance</option>
+    <option value="grove-tender">Grove Tender</option>
+    <option value="rail-layer">Rail Layer</option>
+    <option value="space-quest">Space Quest</option>
   </select>
   <button id="play" onclick={playLofiClicked}>Play A</button>
   <button id="playOgg" onclick={playOggClicked}>Play B</button>

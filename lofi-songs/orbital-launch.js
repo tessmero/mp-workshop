@@ -1,10 +1,10 @@
 /**
  * @file ORBITAL_SONG
  */
-const _ = 'rest';
-const s = 'sustain';
+_ = 'rest';
+s = 'sustain';
 
-export const ORBITAL_LAUNCH = {
+SONGS['orbital-launch'] = {
 
   voices: [
     {

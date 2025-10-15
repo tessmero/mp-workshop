@@ -31,6 +31,16 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Script src="/javascript/lofi-music-manager.js"></Script>
         <Script src="/javascript/songs/avalanche.js"></Script>
+        <Script src="/javascript/songs/chess.js"></Script>
+        <Script src="/javascript/songs/fight-cub.js"></Script>
+        <Script src="/javascript/songs/orbital-launch.js"></Script>
+        <Script src="/javascript/songs/sketch-ball.js"></Script>
+        <Script src="/javascript/songs/wheely.js"></Script>
+        <Script src="/javascript/songs/boating-school.js"></Script>
+        <Script src="/javascript/songs/cube-dance.js"></Script>
+        <Script src="/javascript/songs/grove-tender.js"></Script>
+        <Script src="/javascript/songs/rail-layer.js"></Script>
+        <Script src="/javascript/songs/space-quest.js"></Script>
         {children}
       </body>
     </html>

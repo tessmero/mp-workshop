@@ -1,11 +1,7 @@
 /**
  * @file fight song plays when enemy is on screen
  */
-const _ = 'rest';
-const s = 'sustain';
-
-
-export const FIGHT_CUB = {
+SONGS['fight-cub'] = {
   loop: 100,
   info: '',
 

@@ -15,7 +15,17 @@
           "options": {
             "scripts": [
               "./assets/javascript/lofi-music-manager.js",
-              "./assets/javascript/songs/avalanche.js"
+              "./assets/javascript/songs/avalanche.js",
+              "./assets/javascript/songs/chess.js",
+              "./assets/javascript/songs/fight-cub.js",
+              "./assets/javascript/songs/orbital-launch.js",
+              "./assets/javascript/songs/sketch-ball.js",
+              "./assets/javascript/songs/wheely.js",
+              "./assets/javascript/songs/boating-school.js",
+              "./assets/javascript/songs/cube-dance.js",
+              "./assets/javascript/songs/grove-tender.js",
+              "./assets/javascript/songs/rail-layer.js",
+              "./assets/javascript/songs/space-quest.js"
             ],
             "browser": "src/main.ts",
             "polyfills": [

@@ -7,9 +7,9 @@ export default function Home() {
 
     <div className={styles.page}>
 
-      <MusicPlayer></MusicPlayer>
 
       <main className={styles.main}>
+        <MusicPlayer></MusicPlayer>
         <Image
           className={styles.logo}
           src="/next.svg"

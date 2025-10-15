@@ -15,8 +15,17 @@ export class MusicPlayer {
   volume:number = .5
   selectedSongName: string = 'avalanche'
   allSongNames= [
-      'avalanche',
-      'blavalance',
+    'avalanche',
+    'chess',
+    'fight-cub',
+    'orbital-launch',
+    'sketch-ball',
+    'wheely',
+    'boating-school',
+    'cube-dance',
+    'grove-tender',
+    'rail-layer',
+    'space-quest',
   ]
 
   currentOggPlayer: any = null

@@ -4,11 +4,11 @@
  * By Francois Couperin (1668-1733)
  * https://www.classtab.org/couperin_les_barricades_mysterieuses.txt
  */
-const _ = 'rest';
-const s = 'sustain';
+_ = 'rest';
+s = 'sustain';
 
 // repeated measure 2-8
-const _M28 = [
+_M28 = [
   [
     [_, _, 3, _, 7, _, 3, _, _, _, 5, _, 10, _, 5, _],
     [3, _, _, _, 10, _, _, _, -2, _, _, _, 8, _, _, _],
@@ -39,7 +39,7 @@ const _M28 = [
   ],
 ];
 
-export const CHESS = {
+SONGS['chess'] = {
 
   voices: [
     {

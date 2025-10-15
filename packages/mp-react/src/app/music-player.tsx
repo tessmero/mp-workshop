@@ -12,8 +12,17 @@ export class MusicPlayer extends React.Component<IProps,IState> {
 
   selectedSongName: string = 'avalanche'
   allSongNames= [
-      'avalanche',
-      'blavalance',
+    'avalanche',
+    'chess',
+    'fight-cub',
+    'orbital-launch',
+    'sketch-ball',
+    'wheely',
+    'boating-school',
+    'cube-dance',
+    'grove-tender',
+    'rail-layer',
+    'space-quest',
   ]
 
   currentOggPlayer: any = null // eslint-disable-line @typescript-eslint/no-explicit-any
@@ -107,22 +116,40 @@ export class MusicPlayer extends React.Component<IProps,IState> {
 
 
     render() {
-        return (
-            <div id="music-player">
-                <span id="song-player-label" className="hidden-on-small-screen">Song Player</span>
-                <select name="select-song" id="select-song">
-                    <option value='avalanche'>avalanche</option>
-                </select>
-                <button id="play" onClick={() => this.playLofiClicked()}>Play A</button>
-                <button id="playOgg" onClick={() => this.playOggClicked()}>Play B</button>
-                <button id="stop" onClick={() => this.stopClicked()}>Stop</button>
-                <input 
-                    type="range" min="0" max="1" step="0.01" 
-                    className="slider" id="musicVolumeSlider" 
-                    value={this.state.volume}
-                    onChange={this.handleSliderChange}
-                />
-            </div>
-        )
+      return (
+        <div id="music-player">
+          <span id="song-player-label" className="hidden-on-small-screen">Song Player</span>
+          <select
+            name="select-song"
+            id="select-song"
+            value={this.selectedSongName}
+            onChange={e => {
+              this.selectedSongName = e.target.value;
+              this.forceUpdate();
+            }}
+          >
+            <option value='avalanche'>avalanche</option>
+            <option value='chess'>chess</option>
+            <option value='fight-cub'>fight-cub</option>
+            <option value='orbital-launch'>orbital-launch</option>
+            <option value='sketch-ball'>sketch-ball</option>
+            <option value='wheely'>wheely</option>
+            <option value='boating-school'>boating-school</option>
+            <option value='cube-dance'>cube-dance</option>
+            <option value='grove-tender'>grove-tender</option>
+            <option value='rail-layer'>rail-layer</option>
+            <option value='space-quest'>space-quest</option>
+          </select>
+          <button id="play" onClick={() => this.playLofiClicked()}>Play A</button>
+          <button id="playOgg" onClick={() => this.playOggClicked()}>Play B</button>
+          <button id="stop" onClick={() => this.stopClicked()}>Stop</button>
+          <input 
+            type="range" min="0" max="1" step="0.01" 
+            className="slider" id="musicVolumeSlider" 
+            value={this.state.volume}
+            onChange={this.handleSliderChange}
+          />
+        </div>
+      )
     }
 }

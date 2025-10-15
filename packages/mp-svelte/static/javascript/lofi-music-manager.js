@@ -8,3 +8,23 @@ const SOUND_ENVELOPES={dropEnd:[{start:0,volume:"100%"},{end:.1,volume:"100%"},{
 
 import { AVALANCHE } from "/javascript/songs/avalanche.js?url";
 SONGS['avalanche'] = AVALANCHE
+import { CHESS } from "/javascript/songs/chess.js?url";
+SONGS['chess'] = CHESS
+import { FIGHT_CUB } from "/javascript/songs/fight-cub.js?url";
+SONGS['fight-cub'] = FIGHT_CUB
+import { ORBITAL_LAUNCH } from "/javascript/songs/orbital-launch.js?url";
+SONGS['orbital-launch'] = ORBITAL_LAUNCH
+import { SKETCH_BALL } from "/javascript/songs/sketch-ball.js?url";
+SONGS['sketch-ball'] = SKETCH_BALL
+import { WHEELY } from "/javascript/songs/wheely.js?url";
+SONGS['wheely'] = WHEELY
+import { BOATING_SCHOOL } from "/javascript/songs/boating-school.js?url";
+SONGS['boating-school'] = BOATING_SCHOOL
+import { CUBE_DANCE } from "/javascript/songs/cube-dance.js?url";
+SONGS['cube-dance'] = CUBE_DANCE
+import { GROVE_TENDER } from "/javascript/songs/grove-tender.js?url";
+SONGS['grove-tender'] = GROVE_TENDER
+import { RAIL_LAYER } from "/javascript/songs/rail-layer.js?url";
+SONGS['rail-layer'] = RAIL_LAYER
+import { SPACE_QUEST } from "/javascript/songs/space-quest.js?url";
+SONGS['space-quest'] = SPACE_QUEST

@@ -1,10 +1,10 @@
 /**
  * @file GROVE_SONG
  */
-const _ = 'rest';
-const s = 'sustain';
+_ = 'rest';
+s = 'sustain';
 
-export const GROVE_TENDER = {
+SONGS['grove-tender'] = {
 
   voices: [
     {
