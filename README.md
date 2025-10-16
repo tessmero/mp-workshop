@@ -33,6 +33,8 @@ Each song has two versions:
 
 - [tessmero.github.io](https://tessmero.github.io/) - showcase of games that feature these songs
 
+- [tremolo](https://tessmero.github.io/tremolo) - lofi song player, synthesiser, pitch and interval training
+
 - [rain-catcher](https://tessmero.github.io/rain-catcher) - game with a lot of miscellaneous features including a music sequencer
 
 - [sea-block](https://github.com/tessmero/sea-block) - programmatically convert lofi songs to .midi and .ogg based on [spessasynth](https://spessasus.github.io/SpessaSynth/)
