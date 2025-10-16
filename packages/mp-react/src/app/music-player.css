@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+       .hidden-on-small-screen {
+           display: none;
+       }
+   }
+  #music-player {
+    position: fixed;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  #music-player > * {
+    margin: 0 3px;
+  }
+
+  #song-player-label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+  }

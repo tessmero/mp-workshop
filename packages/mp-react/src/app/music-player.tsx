@@ -1,6 +1,7 @@
 'use client';
 
 import React from "react";
+import './music-player.css'; // Import the CSS file
 
 interface IProps {} // eslint-disable-line @typescript-eslint/no-empty-object-type
 
