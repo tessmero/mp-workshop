@@ -39,10 +39,12 @@ export class MusicPlayer extends React.Component<IProps,IState> {
 
 
   // called when slider is moved
-  // @ts-expect-error event has type any
-    handleSliderChange(event) {
-        this.setState({ volume: event.target.value });
-        this.updateVolume()
+    handleSliderChange(event: React.ChangeEvent<HTMLInputElement>) {
+      const newVolume = parseFloat(event.target.value);
+      const safeVolume = Number.isFinite(newVolume) ? newVolume : 0;
+      this.setState({ volume: safeVolume }, () => {
+        this.updateVolume();
+      });
     }
 
   updateVolume(){
