@@ -143,9 +143,11 @@ export class MusicPlayer extends React.Component<IProps,IState> {
             <option value='rail-layer'>rail-layer</option>
             <option value='space-quest'>space-quest</option>
           </select>
+
           <button id="play" onClick={() => this.playLofiClicked()}>Play A</button>
           <button id="playOgg" onClick={() => this.playOggClicked()}>Play B</button>
           <button id="stop" onClick={() => this.stopClicked()}>Stop</button>
+          
           <input 
             type="range" min="0" max="1" step="0.01" 
             className="slider" id="musicVolumeSlider" 

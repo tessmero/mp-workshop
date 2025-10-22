@@ -1,6 +1,10 @@
 /**
  * @file fight song plays when enemy is on screen
  */
+
+_ = 'rest';
+s = 'sustain';
+
 SONGS['fight-cub'] = {
   loop: 100,
   info: '',
