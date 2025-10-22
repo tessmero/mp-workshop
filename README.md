@@ -1,3 +1,6 @@
+
+[Live Demo](https://tessmero.github.io/music)
+
 # Music Player Workshop
 
 This monorepo demonstrates a minimal music player UI in various web development frameworks.
